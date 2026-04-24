@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .wysiwyg-content h1, .ck-content h1 { @apply text-3xl font-bold mb-4; }
+    .wysiwyg-content h2, .ck-content h2 { @apply text-2xl font-bold mb-3; }
+    .wysiwyg-content h3, .ck-content h3 { @apply text-xl font-bold mb-2; }
+    .wysiwyg-content ul, .ck-content ul { @apply list-disc list-outside ml-5 mb-4; }
+    .wysiwyg-content ol, .ck-content ol { @apply list-decimal list-outside ml-5 mb-4; }
+    .wysiwyg-content p, .ck-content p { @apply mb-4; }
+    .wysiwyg-content a, .ck-content a { @apply text-indigo-600 hover:underline; }
+    .wysiwyg-content strong, .ck-content strong { @apply font-bold; }
+    .wysiwyg-content blockquote, .ck-content blockquote { @apply border-l-4 border-gray-300 pl-4 italic; }
+}
