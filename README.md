@@ -22,7 +22,6 @@ A full-stack e-commerce web application built with **Laravel 12** and **Alpine.j
 - **Product Management** — Full CRUD with image uploads, variant creation, bulk discount pricing, and status toggles
 - **Category & Brand Management** — Organize products with categories, subcategories, and brands (with logo uploads)
 - **Order Management** — View complete order details (customer info, shipping address, purchased items with variant details) and update order status (pending → paid → shipped → delivered)
-- **CSV Import** — Bulk product import functionality
 
 ### 🛡️ Security & Data Integrity
 - **Mass Assignment Protection** — All Eloquent models use explicit `$fillable` arrays
